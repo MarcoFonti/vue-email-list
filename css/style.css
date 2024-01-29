@@ -1,3 +1,10 @@
-body {
-    background-color: blue;
+/* CARD */
+.card {
+    width: 800px;
+    margin: 10px auto;
+}
+
+/* LISTA EMAIL */
+.email{
+    list-style-type: square;
 }
