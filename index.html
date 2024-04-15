@@ -25,7 +25,7 @@
         <!-- CARD LISTA -->
         <div class="card">
             <h1 class="text-center text-danger">LISTA EMAIL</h1>
-            <!-- SE NON CI SONO 10 EMAIL -->
+            <!-- SE LA LUNGHEZZA DELL'ARRAY E' IDENTICA A 10  -->
             <ul v-if="mails.length === 10" class="email">
                 <li v-for="mail in mails">{{mail}}</li>
             </ul>
